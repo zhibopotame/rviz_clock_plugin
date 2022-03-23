@@ -1,0 +1,7 @@
+<launch>
+    <!-- run sim -->
+    <node name="ros_sim_car" pkg="rviz_clock_plugin" type="ros_sim_car.py" output="screen"/>
+
+    <!-- run rviz -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rviz_clock_plugin)/launch/rviz/robot_sim.rviz"/>
+</launch>

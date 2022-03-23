@@ -1,0 +1,7 @@
+uint8 STATUS_WAITING = 0
+uint8 STATUS_FINISHED = 1
+uint8 STATUS_PENDING = 2
+uint8 STATUS_EXECUTING = 3
+
+uint8 status
+float64 time

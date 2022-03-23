@@ -1,0 +1,27 @@
+<package>
+  <name>rviz_clock_plugin</name>
+  <version>0.10.5</version>
+  <description>
+     Add clock plugins for RViz.
+  </description>
+  <maintainer email="zlin@blabla.com">Zhibo Lin</maintainer>
+  <license>BSD</license>
+
+  <url>https://github.com/linzhibo</url>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>qtbase5-dev</build_depend>
+  <build_depend>rviz</build_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <run_depend>libqt5-core</run_depend>
+  <run_depend>libqt5-gui</run_depend>
+  <run_depend>libqt5-widgets</run_depend>
+  <run_depend>libqt5-qlcdnumber</run_depend>
+  <run_depend>rviz</run_depend>
+
+  <export>
+        <rviz plugin="${prefix}/plugin_description.xml"/>
+  </export>
+</package>
