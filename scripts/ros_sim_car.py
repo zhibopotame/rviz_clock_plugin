@@ -15,7 +15,7 @@ k = 0.5  # control gain
 Kp = 1.0  # speed proportional gain
 dt = 0.05  # [s] time difference
 L = 2.9  # [m] Wheel base of vehicle
-max_steer = np.radians(40.0)  # [rad] max steering angle
+max_steer = np.radians(60.0)  # [rad] max steering angle
 
 def normalize_angle(angle):
     """
